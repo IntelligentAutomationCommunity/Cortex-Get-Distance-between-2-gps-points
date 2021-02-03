@@ -6,19 +6,20 @@ A useful subtask that will return the elliptical distance between two gps coordi
 It uses the following input variables:
 
 - i_gps-coord1
- - a comma separated input that references gps coordinate 1 e.g. 51.5018174,-0.0868255
+  - a comma separated input that references gps coordinate 1 e.g. 51.5018174,-0.0868255
 - i_gps-coord2
- - a comma separated input that references gps coordinate 2 e.g. 51.5081765,-0.0987105
+  - a comma separated input that references gps coordinate 2 e.g. 51.5081765,-0.0987105
 - i_lat1
- - if i_pgs-coord1 is not supplied you can supply the gps coordinates as separate values. In this case the latitude value for coordinate 1
+  - if i_pgs-coord1 is not supplied you can supply the gps coordinates as separate values. In this case the latitude value for coordinate 1
 - i_long1
- - if i_pgs-coord1 is not supplied you can supply the gps coordinates as separate values. In this case the longitude value for coordinate 1
+  - if i_pgs-coord1 is not supplied you can supply the gps coordinates as separate values. In this case the longitude value for coordinate 1
 - i_lat2
- - if i_pgs-coord2 is not supplied you can supply the gps coordinates as separate values. In this case the latitude value for coordinate 2
+  - if i_pgs-coord2 is not supplied you can supply the gps coordinates as separate values. In this case the latitude value for coordinate 2
 - i_long2
- - if i_pgs-coord2 is not supplied you can supply the gps coordinates as separate values. In this case the longitude value for coordinate 2
+  - if i_pgs-coord2 is not supplied you can supply the gps coordinates as separate values. In this case the longitude value for coordinate 2
 
-And returns the distance by means of a text variable called **o_distance**
+And returns the distance by means of a text variable called **o_distance*
+The value returned is in meters
 
 ### Use Case example
 One example that this might be useful is to use the distance between two mobile cells to see if a neighbouring cell could take over communications.
